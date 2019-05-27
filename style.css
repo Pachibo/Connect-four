@@ -1,0 +1,26 @@
+table {
+  width: 700px;
+  border-collapse: collapse;
+  border: 2px solid rgb(118, 143, 218);
+}
+td {
+  width: 100px;
+  background: rgb(118, 143, 218);
+  cursor: default;
+  user-select: none;
+}
+td:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: white;
+}
+td.red:before {
+  background: red;
+}
+td.yellow:before {
+  background: yellow;
+}
+
