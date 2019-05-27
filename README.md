@@ -1,3 +1,3 @@
 # A simple Connect 4 game
 
-This this link to play.
+Click [this link](https://pachibo.github.io/Connect-four/) to play.
